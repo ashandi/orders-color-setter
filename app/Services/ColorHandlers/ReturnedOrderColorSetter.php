@@ -97,6 +97,6 @@ class ReturnedOrderColorSetter extends OrderColorSetter
      */
     private function orderIsBad($order)
     {
-        return $order->status == 'canceled';
+        return $order->status == 'returned';
     }
 }
